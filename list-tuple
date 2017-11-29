@@ -1,0 +1,10 @@
+# Python program which accepts a sequence of comma-separated numbers from user and generate a list and a tuple with those numbers.
+tn = ()
+ln = ()
+
+tn = input("Enter a sequence of comma-separated numbers: ")
+print("Tuple:", tn)
+ln = input("Enter a sequence of comma-separated numbers: ")
+print("Tuple:", ln)
+
+input("\nPress the enter key to exit")
