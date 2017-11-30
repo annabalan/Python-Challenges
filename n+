@@ -1,0 +1,11 @@
+# Python program that accepts an integer (n) and computes the value of n+nn+nnn.
+
+number = input("Enter a number: ")
+
+n = number
+nn = number + number
+nnn = number + number + number
+
+print(int(n + nn + nnn))
+
+input("\nPress the enter key to exit.")
