@@ -1,6 +1,6 @@
 # Python program which accepts a sequence of comma-separated numbers from user and generate a list and a tuple with those numbers.
 user_input = input("Enter a sequence of comma-separated numbers: ")
-l = user_input.split()
+l = user_input.split(",") #split() for splitting by blank space
 t = tuple(l)
 print('List:', l)
 print('Tuple:', t)
