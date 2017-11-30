@@ -1,4 +1,11 @@
 import calendar
+import pprint
+
+i = int(input("Enter the month you would like to display: (example: 1) "))
 
 c = calendar.TextCalendar(calendar.SUNDAY)
-c.prmonth(2017,1)
+c.prmonth(2017,i)
+input("\nPress any key to continue.\n")
+
+cal = calendar.TextCalendar(calendar.SUNDAY)
+print(cal.formatyear(2017, 2, 1, 1, 3))
