@@ -1,0 +1,8 @@
+# Python program to check whether a specified value is contained in a group of values.
+value = ("3", "6","9")
+guess = input("Enter a number: ")
+while guess  not in value:
+	print("Incorrect, guess again.")
+	guess = input("Enter a number: ")
+print("\nCorrect, you guessed it!", guess, "is in the list")
+input("\nPress the enter key to exit.")
