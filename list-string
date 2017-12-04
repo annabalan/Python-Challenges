@@ -1,0 +1,10 @@
+# Python program to concatenate all elements in a list into a string and return it.
+
+words = ["corn", "beans", "rice","lime"]
+words_str = ""
+for i in words:
+  words_str += str(i) + " "
+print(words_str)
+
+# (opt 2) words = ["corn", "beans", "rice","lime"]
+words = " ".join(words)
