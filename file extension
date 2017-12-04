@@ -1,4 +1,4 @@
 # Python program to accept a filename from the user and print the extension of that
 fn= input("Input the Filename: ")
 f_extns = fn.split(".")
-print ("Extension of that file is : " + repr(f_extns[-1]))
+print ("Extension of that file is : " + f_extns[-1])
