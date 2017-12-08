@@ -1,0 +1,3 @@
+# Python program to parse a string to Float or Integer.
+n = int(float(input("Enter a number: ")))
+print(n)
