@@ -4,3 +4,6 @@ x = int(input("Enter the x value: "))
 y = int(input("Enter the y value: "))
 
 print((x+y) * (x + y))
+
+result = x * x + 2 * x * y + y * y
+print("({} + {}) ^ 2) = {}".format(x, y, result))
