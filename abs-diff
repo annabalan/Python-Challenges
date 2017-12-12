@@ -2,7 +2,7 @@
 num = int(input("Enter a number: "))
 diff = num - 17  
 
-if num > 17:
+if num >= 17:
   diff = diff * 2
   print(abs(diff))
 else:
