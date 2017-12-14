@@ -1,0 +1,6 @@
+# Python program to calculate body mass index.
+height = float(input("Height in inches: "))
+height = height * 0.025
+weight = float(input("Weight in pounds: "))
+weight = weight * 0.45
+print("Your BMI is: ", round(weight / (height * height), 2))
