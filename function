@@ -90,4 +90,7 @@ while choice != "0":
     print(fun_dic)
   elif choice == "2":
     x = input("Enter function name: ")
-    print(fun_dic[x].__doc__)
+    if x in fun_dic:
+      print(fun_dic[x].__doc__)
+  else:
+    print("Invalid choice")
