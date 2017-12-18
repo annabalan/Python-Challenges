@@ -90,8 +90,10 @@ while choice != "0":
     print("Good-bye.")
   elif choice == "1":
     os.system('cls||clear')
-    for key in fun_dic:
-      print(key)
+    column_widths = []
+    print(list(fun_dic.keys()))
+  # for key in fun_dic:
+    #  print(key)
   elif choice == "2":
     os.system('cls||clear')		
     x = input("Enter function name: ")
