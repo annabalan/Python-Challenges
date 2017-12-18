@@ -1,4 +1,6 @@
 import builtins
+import os
+import pprint
 print("\n\n\t\t\t'Welcome to Function Dictionary'\n")
 fun_dic =  {
 "abs":abs,
@@ -87,8 +89,11 @@ while choice != "0":
   if choice == "0":
     print("Good-bye.")
   elif choice == "1":
-    print(fun_dic)
+    os.system('cls||clear')
+    for key in fun_dic:
+      print(key)
   elif choice == "2":
+    os.system('cls||clear')		
     x = input("Enter function name: ")
     if x in fun_dic:
       print(fun_dic[x].__doc__)
