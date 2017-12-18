@@ -1,6 +1,5 @@
 import builtins
 import os
-import pprint
 print("\n\n\t\t\t'Welcome to Function Dictionary'\n")
 fun_dic =  {
 "abs":abs,
