@@ -1,0 +1,4 @@
+# Python to find local IP addresses using Python's stdlib
+
+import socket
+socket.gethostbyname(socket.gethostname())
