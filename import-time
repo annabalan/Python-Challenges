@@ -2,3 +2,8 @@
 import time
 print(time.ctime())
 print()
+
+#opt 2
+import os
+
+os.times().system
