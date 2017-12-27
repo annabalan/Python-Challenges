@@ -1,0 +1,7 @@
+# Python program to compute the future value of a specified principal amount, rate of interest, and a number of years.
+amt = int(input("Enter amount of load: ")
+int = int(input("Enter interest rate: ")
+years = int(input("Enter length in years: ")
+
+future_value  = amt*((1+(0.01*int)) ** years)
+print(round(future_value,2))
