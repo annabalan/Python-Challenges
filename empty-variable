@@ -1,0 +1,9 @@
+# Python program to empty a variable without destroying it
+n = name
+d = {"a":1}
+l = [a,b,c]
+t= (10,11,12)
+print(type(n)())
+print(type(d)())
+print(type(l)())
+print(type(t)()) 
