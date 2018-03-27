@@ -4,7 +4,6 @@ def aging():
     name = input("Enter your name: ")
     age = int(input("Enter your age: "))
     number = int(input("Enter a number: "))
-    aging = 100 - age
-    year = 2018 + aging
-    print(("\nHello " + name + "!" + " You are " + str(age) + "." + "You will be 100 years old in the year," + str(year) + ".") * (number))
+    year = str((2018 - age)+100)
+    print(("\nHello " + name + "!" + " You are " + str(age) + "." + " You will be 100 years old in the year," + str(year) + ".") * (number))
 aging()
