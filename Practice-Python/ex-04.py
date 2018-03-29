@@ -2,8 +2,11 @@
 
 num = int(input("Choose a number: "))
 x = range(0, num)
+divisor_list = []
 def divisors(num):
     if num % x == 0:
-        print(x)
+        divisor_list.append(num)
+        print(divisor_list)
     else:
+
 
