@@ -5,8 +5,4 @@
 
 a_list = [1, 1, 2, 3, 4, 4, 5, 14, 34, 67, 99]
 b_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
-c_list = []
-for number in a_list:
-    if number in b_list:
-        c_list.append(number)
-print(c_list)
+print(set(a_list) & set(b_list))
