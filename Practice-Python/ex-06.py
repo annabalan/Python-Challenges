@@ -1,7 +1,14 @@
 # Ask the user for a string and print out whether this string is a palindrome or not. (A palindrome is a string that reads the same forwards and backwards.)
 user_input = input("Enter a string: ")
-while user_input != " ":
-    if user_input
-        print("This is a palindrome.")
+
+#function which return reverse of a string
+def reverse(user_input):
+    return user_input[::-1]
+
+def ispalinodrome():
+    rev = reverse(user_input)
+    if rev == user_input:
+        print("True")
     else:
-        print("This is not a palindrome.")
+        print("False")
+ispalinodrome()
