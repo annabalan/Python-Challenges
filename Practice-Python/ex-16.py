@@ -2,6 +2,9 @@
 
 #import random
 #password = [ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()_-+=]
+#passlen = 8
+#pass =  "".join(random.sample(password,passlen ))
+#print pass
 import secrets
 import string
 alphabet = string.ascii_letters + string.digits
