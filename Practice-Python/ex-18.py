@@ -3,8 +3,8 @@
 import random
 print("\n\n\t\t\t'Welcome to Cows & Bulls!'\n")
 print("I will generate a number, and you have to guess the numbers one digit at a time.")
-print("For every number in the wrong place, you get a cow. For every one in the right place, you get a bull.")
-print("The game will end when you get 4 bulls!")
+print("\nFor every number in the wrong place, you get a cow. For every one in the right place, you get a bull.")
+print("\nThe game will end when you get 4 bulls!")
 
 guess = int(input("Enter a 4 digit number: "))
 
