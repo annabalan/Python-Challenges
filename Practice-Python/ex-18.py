@@ -10,4 +10,4 @@ guess = int(input("Enter a 4 digit number: "))
 
 from random import randint
 random_number = randint(1000, 9999)  # randint is inclusive at both ends
-print(random_number)
+
