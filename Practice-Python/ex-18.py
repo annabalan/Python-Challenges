@@ -13,3 +13,5 @@ random_number = randint(1000, 9999)  # randint is inclusive at both ends
 cows = 0
 tries = 0
 while cows != 4:
+  guess = int(input("Enter a 4 digit number: "))
+  
