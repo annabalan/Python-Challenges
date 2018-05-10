@@ -20,5 +20,7 @@ while cows != 4:
         elif guess[i] in random_number:
             bulls += 1
      return(cows, bulls)
-
+while cows < 4:
+    guess = int(input("Enter a 4 digit number: "))
+    
   
