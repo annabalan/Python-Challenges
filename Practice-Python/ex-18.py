@@ -13,13 +13,14 @@ guess = int(input("Enter a 4 digit number: "))
 cows = 0
 bulls = 0
 tries = 0
-while cows != 4:
-    for i in range(0, 4):
-        if guess[i] == random_number[i]:
-            cow += 1
-        elif guess[i] in random_number:
-            bulls += 1
-    return(cows, bulls)
+def counting_cows():
+    while cows != 4:
+        for i in range(0, 4):
+            if guess[i] == random_number[i]:
+                cow += 1
+            elif guess[i] in random_number:
+                bulls += 1
+        return(cows, bulls)
 while cows < 4:
     guess = int(input("Enter a 4 digit number: "))
 
