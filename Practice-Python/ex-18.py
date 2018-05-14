@@ -17,7 +17,7 @@ def counting_cows():
     while cows != 4:
         for i in range(0, 4):
             if guess[i] == random_number[i]:
-                cow += 1
+                cows += 1
             elif guess[i] in random_number:
                 bulls += 1
         return(cows, bulls)
