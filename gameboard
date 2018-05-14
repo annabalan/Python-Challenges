@@ -1,0 +1,12 @@
+def drawboard(board):
+    board = int(input("Enter size of board: "))
+    i = 0
+    x = "--- "
+    y = "|   "
+    x = x * board
+    y = y * (board+1)
+    while i < board+1:
+        print x
+        if not (i == board):
+            print y
+        i += 1
