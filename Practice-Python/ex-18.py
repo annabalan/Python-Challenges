@@ -25,3 +25,5 @@ while cows < 4:
     guess = int(input("Enter a 4 digit number: "))
 
 
+if cows == 4:
+  print("Congrats! You guessed " + str(tries) + times.")
