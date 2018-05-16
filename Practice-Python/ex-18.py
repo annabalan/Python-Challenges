@@ -21,9 +21,11 @@ def counting_cows():
             elif guess[i] in random_number:
                 bulls += 1
         return(cows, bulls)
-while cows < 4:
-    guess = int(input("Enter a 4 digit number: "))
-
-
-if cows == 4:
-  print("Congrats! You guessed " + str(tries) + times.")
+def cow_game():
+    while cows < 4:
+        guess = int(input("Enter a 4 digit number: "))
+        cows, bulls = counting_cows(guess)
+        print("cows:", cows)
+        print("bulls:", bulls)
+        if cows == 4:
+            print("Congrats! You guessed " + str(tries) + times.")
