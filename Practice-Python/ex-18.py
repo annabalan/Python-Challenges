@@ -28,4 +28,5 @@ def cow_game():
         print("cows:", cows)
         print("bulls:", bulls)
         if cows == 4:
-            print("Congrats! You guessed " + str(tries) + times.")
+            print("Congrats! You guessed " + str(tries) + "times.")
+cow_game()
