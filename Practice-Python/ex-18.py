@@ -22,6 +22,11 @@ def counting_cows():
                 bulls += 1
         return(cows, bulls)
 def cow_game():
+    random_number = randint(1000,9999)
+    guess = int(input("Enter a 4 digit number: "))
+    cows = 0
+    bulls = 0
+    tries = 0
     while cows < 4:
         guess = int(input("Enter a 4 digit number: "))
         cows, bulls = counting_cows(guess)
